@@ -1,3 +1,21 @@
+# Terra excercise
+
+Exploring the Terra ecosystem.
+
+## Start
+
+Mint some testnet LUNA. (https://faucet.terra.money/)
+
+Download Station wallet extension.
+
+Start the app (described in getting started bellow).
+
+Connect the app with Station.
+
+It should show balance in uluna.
+
+````bash
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -12,7 +30,7 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+````
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
