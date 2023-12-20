@@ -1,6 +1,7 @@
 import React from "react";
 import { useConnectedWallet, useWallet } from "@terra-money/wallet-kit";
 import { Ballance } from "./Ballance";
+import { Send } from "./Send";
 
 export const App = () => {
   const connectedWallet = useConnectedWallet();
@@ -17,8 +18,9 @@ export const App = () => {
           >
             Disconnect
           </button>
-          <code>
+          <code className="flex flex-col gap-4">
             <Ballance />
+            <Send />
           </code>
         </>
       ) : (
